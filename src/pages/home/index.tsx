@@ -55,7 +55,7 @@ export const Home = (): JSX.Element => {
             Meu interesse pela tecnologia começou aos 12 anos, onde comecei a estudar designer e sistemas. 
             Iniciei minha carreira em áreas administrativas, onde sempre tive a liberdade de apresentar algo a mais com o que sabia,
             e isso me motivou a buscar algo novo para me aprimorar. 
-            Aos 16 anos, tive interesse na área de programação, e logo dei início aos estudos.
+            Aos 16 anos tive interesse na área de programação, e logo dei início aos estudos.
             </Text>
             <Text type="body1" color="grey2">
             Com o objetivo de aprimorar ainda mais meus conhecimentos em programação, no ano de 2021 
