@@ -29,7 +29,7 @@ import {
 
 export const Home = (): JSX.Element => {
   const gihubUrl = `https://github.com/${userData.githubUser}`;
-  const portfolioUrl = `https://github.com/${userData.githubUser}/my-portfolio`;
+  const portfolioUrl = `https://github.com/${userData.githubUser}/Meu-Portfolio`;
 
   return (
     <main id="home">
@@ -54,7 +54,7 @@ export const Home = (): JSX.Element => {
             <Text type="body1" color="grey2">
             Meu interesse pela tecnologia começou aos 12 anos, onde comecei a estudar designer e sistemas. 
             Iniciei minha carreira em áreas administrativas, onde sempre tive a liberdade de apresentar algo a mais com o que sabia,
-            e isso me motivou a buscar algo novo, para me aprimorar. 
+            e isso me motivou a buscar algo novo para me aprimorar. 
             Aos 16 anos, tive interesse na área de programação, e logo dei início aos estudos.
             </Text>
             <Text type="body1" color="grey2">
@@ -66,7 +66,7 @@ export const Home = (): JSX.Element => {
               <Button as="a" type="primary" href="https://drive.google.com/file/d/1VXzOUIwNmRZrTIwEV_j-tpvxjNxjK_6l/view?usp=sharing">
                 Ver Currículo
               </Button>
-              <Button as="a" type="outline" target="_blank" href="https://github.com/lestardeangelo/Meu-Portfolio">
+              <Button as="a" type="outline" target="_blank" href={portfolioUrl}>
                 Veja o código-fonte do meu portfólio
               </Button>
               <Button
