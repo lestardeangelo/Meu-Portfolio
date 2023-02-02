@@ -12,6 +12,7 @@ import { useEffect, useState } from "react";
 import { FaGithub, FaShare } from "react-icons/fa";
 import { userData } from "@/utils/userData";
 import { deployData } from "@/utils/deployData";
+import { languageData } from "@/utils/languageData";
 
 interface ReposType {
   id: number;
@@ -57,21 +58,18 @@ export const Project = (): JSX.Element => {
 
             <ProjectStack>
               <Text type="body2" color="grey2">
-                Linguagem utilizada:
+                Linguagens utilizada:
               </Text>
-              {repository.language ? (
-                <ProjectStackTech>
-                  <Text color="grey2" type="body2">
-                    {repository.language}
-                  </Text>
-                </ProjectStackTech>
-              ) : (
-                <ProjectStackTech>
-                  <Text color="grey2" type="body2">
-                  Linguagem utilizada não encontrada
-                  </Text>
-                </ProjectStackTech>
-              )}
+              {languageData.map((project) => {
+                return (project.name === repository.name && (
+                  <ProjectStackTech>
+                    <Text color="grey2" type="body2">
+                    {project.language}
+                    </Text>
+                  </ProjectStackTech>
+                )
+              );
+            })}
             </ProjectStack>
 
             <Text type="body1" color="grey2">
@@ -90,6 +88,7 @@ export const Project = (): JSX.Element => {
                   )
                 );
               })}
+
             </ProjectLinks>
           </ProjectWrapper>
         ))}

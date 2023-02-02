@@ -16,17 +16,18 @@ export const deployData = [
 
     {
         name: "Nu-Kenzie", 
-        deployLink: "https://react-entrega-s1-nu-kenzie-lestardeangelo.vercel.app/" 
+        deployLink: "https://react-entrega-s1-nu-kenzie-lestardeangelo.vercel.app/",
     },
 
     {
         name: "Kenzie-shop",
         deployLink: "https://react-entrega-s3-kenzieshop-lestardeangelo.vercel.app/",
+        
     },
 
     {
         name: "Hamburgueria-da-kenzie",
         deployLink: "https://react-entrega-s1-hamburgueria-da-kenzie-lestardeangelo.vercel.app/",
+        
     },
-
   ];
