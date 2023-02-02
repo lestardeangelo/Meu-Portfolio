@@ -66,7 +66,7 @@ export const Home = (): JSX.Element => {
               <Button as="a" type="primary" href="https://drive.google.com/file/d/1VXzOUIwNmRZrTIwEV_j-tpvxjNxjK_6l/view?usp=sharing">
                 Ver Currículo
               </Button>
-              <Button as="a" type="outline" target="_blank" href={portfolioUrl}>
+              <Button as="a" type="outline" target="_blank" href="https://github.com/lestardeangelo/Meu-Portfolio">
                 Veja o código-fonte do meu portfólio
               </Button>
               <Button
