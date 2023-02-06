@@ -63,7 +63,7 @@ export const Home = (): JSX.Element => {
             Onde hoje também atuo como Peer coach, podendo assim aprimorar, e solidificar diariamente meu conhecimento na área.
             </Text>
             <HeaderButtonsArea>
-              <Button as="a" type="primary" href="https://drive.google.com/file/d/1VXzOUIwNmRZrTIwEV_j-tpvxjNxjK_6l/view?usp=sharing">
+              <Button as="a" type="primary" href="https://drive.google.com/file/d/16q1Oj5VCjYHiLMSpkt0nGh-fIRchl8Fu/view?usp=sharing">
                 Ver Currículo
               </Button>
               <Button as="a" type="outline" target="_blank" href={portfolioUrl}>
