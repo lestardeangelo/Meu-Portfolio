@@ -52,7 +52,7 @@ export const Home = (): JSX.Element => {
               </Text>{" "}
             </Text>
             <Text type="body1" color="grey2">
-            Meu interesse pela tecnologia começou aos 12 anos, onde comecei a estudar designer e sistemas. 
+            Meu interesse pela tecnologia começou aos 12 anos, onde comecei a estudar design, e sistemas. 
             Iniciei minha carreira em áreas administrativas, onde sempre tive a liberdade de apresentar algo a mais com o que sabia,
             e isso me motivou a buscar algo novo para me aprimorar. 
             Aos 16 anos tive interesse na área de programação, e logo dei início aos estudos.
@@ -63,7 +63,7 @@ export const Home = (): JSX.Element => {
             Onde hoje também atuo como Peer coach, podendo assim aprimorar, e solidificar diariamente meu conhecimento na área.
             </Text>
             <HeaderButtonsArea>
-              <Button as="a" type="primary" href="https://drive.google.com/file/d/1VXzOUIwNmRZrTIwEV_j-tpvxjNxjK_6l/view?usp=sharing">
+              <Button as="a" type="primary" href="https://drive.google.com/file/d/16q1Oj5VCjYHiLMSpkt0nGh-fIRchl8Fu/view?usp=sharing">
                 Ver Currículo
               </Button>
               <Button as="a" type="outline" target="_blank" href={portfolioUrl}>
