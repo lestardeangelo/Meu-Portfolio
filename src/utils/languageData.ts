@@ -40,13 +40,18 @@ export const languageData = [
     },
 
     {
-        name: "Dev-Tech",
-        language: "TypeScript 99.7% - Shell 0.3%"
+        name: "Tech_Dev",
+        language: "TypeScript 99.2% - Shell 0.8%"
     },
 
     {
         name: "Kenzie-pet",
         language: "Python 100.0%"
+    },
+
+    {
+        name: "teste_tecnico_esparta",
+        language: "TypeScript 95.7% JavaScript 4.3%"
     },
 
   ];
