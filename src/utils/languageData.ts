@@ -54,4 +54,9 @@ export const languageData = [
         language: "TypeScript 95.7% JavaScript 4.3%"
     },
 
+    {
+        name: "Doc",
+        language: "  HTML 100.0%"
+    },
+
   ];
