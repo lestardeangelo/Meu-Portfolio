@@ -44,15 +44,6 @@ export const Footer = (): JSX.Element => {
           >
             <FaLinkedinIn />
           </Button>
-          <Button
-            className="instagram"
-            type="circle"
-            as="a"
-            target="_blank"
-            href={`https://www.instagram.com/${userData.instagramUser}`}
-          >
-            <FaInstagram />
-          </Button>
         </Flex>
       </Container>
     </FooterWrapper>
