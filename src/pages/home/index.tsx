@@ -58,12 +58,11 @@ export const Home = (): JSX.Element => {
             Aos 16 anos tive interesse na área de programação, e logo dei início aos estudos.
             </Text>
             <Text type="body1" color="grey2">
-            Com o objetivo de aprimorar ainda mais meus conhecimentos em programação, no ano de 2021 
-            ingressei na Kenzie Academy Brasil, e após minha formação decidi seguir na área de desenvolvimento Back-end.
-            Onde hoje também atuo como Peer coach, podendo assim aprimorar, e solidificar diariamente meu conhecimento na área.
+            Com o objetivo de aprimorar ainda mais meus conhecimentos em programação, no ano de 2021 ingressei na Kenzie Academy Brasil,
+            e após minha formação decidi seguir na área de desenvolvimento Back-end.
             </Text>
             <HeaderButtonsArea>
-              <Button as="a" type="primary" href="https://drive.google.com/file/d/16q1Oj5VCjYHiLMSpkt0nGh-fIRchl8Fu/view?usp=sharing">
+              <Button as="a" type="primary" href="https://drive.google.com/file/d/1lgaY3-poFowcSGeI-xoB7ZWyfAa3u9HB/view?usp=sharing">
                 Ver Currículo
               </Button>
               <Button as="a" type="outline" target="_blank" href={portfolioUrl}>

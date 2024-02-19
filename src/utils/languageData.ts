@@ -35,11 +35,6 @@ export const languageData = [
     },
 
     {
-        name: "lestardeangelo",
-        language: "Linguagem não encontrada"
-    },
-
-    {
         name: "Tech_Dev",
         language: "TypeScript 99.2% - Shell 0.8%"
     },
