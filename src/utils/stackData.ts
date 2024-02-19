@@ -27,6 +27,7 @@ export const stackData = [
   { title: "Docker", img: FaDocker },
   { title: "PostgreSQL", img: SiPostgresql },
   { title: "Sqlite3", img: SiSqlite },
+  { title: "Angular", img: FaAngular },
   { title: "Jest", img: SiJest },
   { title: "Tailwind", img: SiTailwindcss },
   { title: "MaterialUi", img: SiMaterialui },
@@ -37,6 +38,5 @@ export const stackData = [
   { title: "Css3", img: FaCss3Alt },
   { title: "Html5", img: FaHtml5 },
   { title: "Git", img: FaGit },
-  { title: "Angular", img: FaAngular },
   
 ];
