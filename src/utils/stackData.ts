@@ -1,4 +1,4 @@
-import { SiPostgresql, SiTypescript, SiRedux, SiDjango, SiMongodb, SiSqlite, SiJest, SiTailwindcss, SiMaterialui, SiExpress, SiNestjs } from "react-icons/si";
+import { SiPostgresql, SiTypescript, SiSpringboot, SiRedux, SiDjango, SiMongodb, SiSqlite, SiJest, SiTailwindcss, SiMaterialui, SiExpress, SiNestjs } from "react-icons/si";
 import {
   FaDocker,
   FaHtml5,
@@ -8,16 +8,20 @@ import {
   FaReact,
   FaAws,
   FaGit, 
-  FaPython
+  FaPython,
+  FaJava,
+  FaAngular
 } from "react-icons/fa";
 
 export const stackData = [
 
   { title: "Typescript", img: SiTypescript },
   { title: "Javascript", img: FaJs },
+  { title: "Java", img: FaJava },
   { title: "Python", img: FaPython },
-  { title: "Django", img: SiDjango },
   { title: "Nodejs", img: FaNode },
+  { title: "Spring Boot", img: SiSpringboot },
+  { title: "Django", img: SiDjango },
   { title: "AWS", img: FaAws },
   { title: "Mongodb", img: SiMongodb },
   { title: "Docker", img: FaDocker },
@@ -33,5 +37,6 @@ export const stackData = [
   { title: "Css3", img: FaCss3Alt },
   { title: "Html5", img: FaHtml5 },
   { title: "Git", img: FaGit },
+  { title: "Angular", img: FaAngular },
   
 ];
