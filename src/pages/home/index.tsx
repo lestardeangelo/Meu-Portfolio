@@ -48,7 +48,7 @@ export const Home = (): JSX.Element => {
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
               <Text as="span" type="heading1" color="brand1">
-                Desenvolvedor Back-end
+                Desenvolvedor Full Stack
               </Text>{" "}
             </Text>
             <Text type="body1" color="grey2">
