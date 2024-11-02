@@ -52,14 +52,14 @@ export const Home = (): JSX.Element => {
               </Text>{" "}
             </Text>
             <Text type="body1" color="grey2">
-            Meu interesse pela tecnologia começou aos 12 anos, onde comecei a estudar design, e sistemas. 
-            Iniciei minha carreira em áreas administrativas, onde sempre tive a liberdade de apresentar algo a mais com o que sabia,
-            e isso me motivou a buscar algo novo para me aprimorar. 
-            Aos 16 anos tive interesse na área de programação, e logo dei início aos estudos.
+            Meu interesse por tecnologia começou cedo, aos 12 anos, quando comecei a estudar design e sistemas. 
+            Iniciei minha carreira em áreas administrativas, onde tive liberdade para aplicar e compartilhar o que sabia, 
+            o que sempre me incentivou a buscar novos conhecimentos. Aos 16 anos, decidi mergulhar na programação.
             </Text>
             <Text type="body1" color="grey2">
-            Com o objetivo de aprimorar ainda mais meus conhecimentos em programação, no ano de 2021 ingressei na Kenzie Academy Brasil,
-            e após minha formação decidi seguir na área de desenvolvimento Back-end.
+            Em 2021, ingressei na Kenzie Academy Brasil para me aprofundar em desenvolvimento, e foi onde decidi seguir no Back-end. 
+            Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na PUCPR para aprimorar minhas habilidades 
+            e me tornar um profissional cada vez mais completo na área que tanto me apaixona.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="https://drive.google.com/file/d/1lgaY3-poFowcSGeI-xoB7ZWyfAa3u9HB/view?usp=sharing">
